@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    display: block;
+
+}
+
+nav {
+    border: 1px solid red;
+    
+
+}
+
+#logo {
+    border: 1px solid green;
+}
+
+#social {
+    border: 1px solid blue;
+}
