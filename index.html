@@ -6,33 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Tony's Pizzaria</title>
+    <title>South St. Pizzeria</title>
 </head>
 
 <body>
 
     <!--Header Section-->
 
-    <head>
+    <header>
         <nav>
             <ul class="nav">
-                <li class="navitem">Menu</a></li>
-                <li class="navitem">Best Sellers</a></li>
-                <li class="navitem">Locations</a></li>
-                <li class="navitem"><button>Contact us!</button></li>
+                <li class="listItem"><a href ="#menu">Menu</a></li>
+                <li class="listItem"><a href ="#bestSellers">Best Sellers</a></li>
+                <li class="listItem"><a href ="#location">Locations</a></li>
+                <li class="listItem"><a href ="#contact">Contact us!</a></li>
             </ul>
         </nav>
+
+        <div class="logo">
         <img id="logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F479%2F281%2Foriginal%2Fvector-pizza-logo-illustration.jpg&f=1&nofb=1">
-        <div id="social">
+        </div>
+
+        <div class="social">
             <ul class="socialLinks">
-                <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.uFBUhWgHBARpY5SkNbw-jAHaHa%26pid%3DApi&f=1"></li>
-                <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.P3GJZi8Z-DGPx1JS3u5yOgHaGl%26pid%3DApi&f=1"></li>
-                <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpsfonttk.com%2Fwp-content%2Fuploads%2F2020%2F09%2FLogo-Instagram.png&f=1&nofb=1"></li>
+                <li class="socialItem"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.uFBUhWgHBARpY5SkNbw-jAHaHa%26pid%3DApi&f=1"></li>
+                <li class="socialItem"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.P3GJZi8Z-DGPx1JS3u5yOgHaGl%26pid%3DApi&f=1"></li>
+                <li class="socialItem"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpsfonttk.com%2Fwp-content%2Fuploads%2F2020%2F09%2FLogo-Instagram.png&f=1&nofb=1"></li>
+                <li><button id="order"><a href="#order">Order Now</a></button></li>
             </ul>
 
         </div>
 
-    </head>
+    </header>
+
+       <!--Welcome Section-->
+    <div class="welcome">
+        <h1>South Street Pizzeria</h1>
+        <h2>Voted Home Of Chicago's Best Deep Dish </h2>
+    </div>
+
+
+        <!--Middle Button Section-->
+    <div class="midButtons">
+        <button id="order">Order Online</button>
+        <button id="order">Place Reservation</button>
+    </div>
     
+
+    <!--Banner Section-->
+    <div class="banner">
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.veganricha.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fdeep-dish-pizza-veganricha-5958-1.jpg&f=1&nofb=1">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-MUKy5y_SlZg%2FWqtD4FT7Z0I%2FAAAAAAAApYk%2FTjQgM1jQtmwAmtUdNwetSu3pQsgKDvqZgCK4BGAYYCw%2Fs1600%2FEdwardo%252527s%252BNatural%252BDeep%252BDish%252BPizza%252B%25257C%252BChicago%252BDeep%252BDish%252BPizza-770326.jpg&f=1&nofb=1">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fawholesomenewworld.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fdeep-dish1.jpg%3Ffit%3D1616%252C909%26ssl%3D1&f=1&nofb=1">
+    </div>
+
+ 
+
+    
+
+    <!--Specials Section-->
+    <div class="specials">
+        <h2>Today's Special</h2>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fchicago-style-deep-dish-pizza-buffalo-chicken-26454737.jpg&f=1&nofb=1">
+        <p>Buffalo Chicken - $15.99</p>
+    </div>
+
+
+    <!--Menu Section-->
+
+    <div class="menuSection">
+        <h6 id="hidden">Menu</h6>
+        <div id="menu">
+           
+            <div class="menuItem"><p>Pizzas</p></div>
+            <div class="menuItem"><p>Sides</p></div>
+            <div class="menuItem" id="special"><p>Desserts</p></div>
+            <div class="menuItem" ><p>Drinks</p></div>
+        </div>
+    </div>
+
+    <!--Store Hours Section-->
+    <div class="store">
+   
+        <div id="location">
+            <h3>Location</h3>
+            <h4>223 South Street</h4>
+            <h4>Chicago, Illinois</h4>
+        </div>
+        <div id="hours">
+            <h3>Hours</h3>
+            <h4>Sunday-Thursday: 2PM - 10PM</h4>
+            <h4>Friday-Saturday: 2pm - 12PM</h4>
+        </div>
+    
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+        <p id="contact">Contact us: 1(555)555-5555 / SouthStreetPizzeria@gmail.com / Instagram: @SouthStreetPizzeria</p>
+    </footer>
+
+
+  
 </body>
 </html>
